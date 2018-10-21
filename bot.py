@@ -668,7 +668,7 @@ async def wikipedia(ctx, *, query: str):
 
 
 
- class Search():
+ class BAsearch():
 
  @commands.command(
     name="pokemon")
@@ -1073,5 +1073,5 @@ async def on_ready():
 bot.add_cog(BAdmin())
 bot.add_cog(Fun())
 bot.add_cog(BAsics())
-bot.add_cog(Search())
+bot.add_cog(BAsearch())
 bot.run(os.getenv('TOKEN'))
